@@ -40,5 +40,4 @@
 #     c = int(a/b)
 #     print(c)
 #     return c
-
 # division(12,2)
