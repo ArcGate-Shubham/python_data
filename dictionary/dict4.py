@@ -1,5 +1,5 @@
-person = {'name'   : 'Kartik',
+person = {'name': 'Kartik',
           'address': 'Udaipur',
-          'Mobile' :  9412589628
-         }
+          'Mobile':  9412589628
+          }
 print(person.keys())
