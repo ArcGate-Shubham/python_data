@@ -23,7 +23,7 @@
 #     si = (p*r*t)/100
 #     print("Simple interest is",si)
 
-# simint(12345,3.5,2) 
+# simint(12345,3.5,2)
 
 # with return type no arguments :
 # def product():

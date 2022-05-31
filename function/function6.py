@@ -8,6 +8,6 @@
 # a.sort(key=lambda x :x[2])
 # print(a)
 
-a = [[3,4,6],[11,13,65],[95,25,11]]
-a.remove(key=lambda x :x[2])
+a = [[3, 4, 6], [11, 13, 65], [95, 25, 11]]
+a.remove(key=lambda x: x[2])
 print(a)

@@ -1,8 +1,9 @@
 print("Welcome to our Application!!")
 
+
 def data():
-    list1 = ["Shubham","Kartik","Priya"]
-    list2 = [12,13,14,15]
+    list1 = ["Shubham", "Kartik", "Priya"]
+    list2 = [12, 13, 14, 15]
     num = int(input("Enter number :"))
     for x in range(num):
         name = input("Enter Name :")
@@ -16,5 +17,6 @@ def data():
             print("number is already present in this list2")
     print(list1)
     print(list2)
+
+
 data()
-    

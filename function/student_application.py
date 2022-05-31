@@ -1,5 +1,7 @@
 print("Welcome student login page")
 student = []
+
+
 def addstud():
     num = int(input("Enter number :"))
     for x in range(num):
@@ -9,6 +11,7 @@ def addstud():
         else:
             student.append(name)
     print(student)
+
 
 def showstud():
     name = input("Enter value :")
@@ -22,18 +25,20 @@ def showstud():
     else:
         print("given data not valid !")
 
+
 def stop():
     print("Application stop now")
 
-v=1
+
+v = 1
 while(v):
-        s= int(input("Enter 1 for addstud\nEnter 2 for showstud\nEnter 3 for stop\n"))
-        if(s==1):
-            addstud()
-        elif(s==2):
-            addstud()
-            showstud()
-        elif(s==3):
-            v=stop()
-        else:
-            print("This service not available ")
+    s = int(input("Enter 1 for addstud\nEnter 2 for showstud\nEnter 3 for stop\n"))
+    if(s == 1):
+        addstud()
+    elif(s == 2):
+        addstud()
+        showstud()
+    elif(s == 3):
+        v = stop()
+    else:
+        print("This service not available ")
